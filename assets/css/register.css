@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: myFarsiFont;
+  src: url(../font/Yekan.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: myFarsiFont;
+  
+}
+
+h1{
+	text-align:center;
+	color:#F63854;
+	font-size:36px;
+}
+h2{
+	text-align:center;
+}
+#register-form-holder{
+	width:350px;
+	border:solid 1px #ddd;
+	margin: 60px auto;
+	border-radius:10px;
+	padding:25px;
+}
+#profile , #submit{
+  text-align:center;
+}
+
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #ef394e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#message {
+  color: red;
+  margin-top: 10px;
+}
+
+
+

@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: myFarsiFont;
+  src: url(../font/Yekan.ttf);
+}
+
+
+
+body{
+	margin:0px;
+	font-family: myFarsiFont;
+}
+#login-form-holder{
+	width:350px;
+	border:solid 1px #ddd;
+	margin: 60px auto;
+	border-radius:10px;
+	padding:25px;
+}
+h1{
+	text-align:center;
+	color:#F63854;
+	font-size:36px;
+}
+h2{
+	text-align:center;
+}
+input{
+	width:100%;
+	height:35px;
+	border:solid 1px #ddd;
+	border-radius:10px;
+}
+.tozihat{
+	direction:rtl;
+	font-size:14px;
+	text-align:center;
+	color:#999;
+}
+form{
+	direction:rtl;
+}
+label{
+	color:#666;
+}
+input{
+	text-indent:10px;
+}
+
+input:focus{
+	outline:none;
+	border:dashed 2px #F63854;
+}
+
+
+input[type="submit"]{
+	background-color:#F63854;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

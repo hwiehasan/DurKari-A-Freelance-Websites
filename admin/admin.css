@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+   /* تغییر ترتیب المان‌ها */
+#header-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    order: 1;
+  }
+
+  section {
+    order: 2;
+  }
+
+footer {
+  order: 3;
+  }
+
+  /* تنظیم مارجین بالا و پایین برای سکشن و فوتر */
+  section {
+    margin-top: 100px;
+    color: #333;
+    font-size: 15px;
+    text-align: right;
+
+  
+  }
+  .li-link{
+    color: #333;
+  }
+  .li-link:hover {
+    color: #F63854
+  }
+  .li-item{
+    
+    margin-bottom: 20px;
+  }
+
+
+  .section-first .li-item .li-link:hover:before,
+  .section-first .li-item .li-link:focus:before {
+    background-color: #F63854;
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    margin: 0 auto;
+    width: 0;
+    top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: width 1s;
+    -ms-transition: width 1s;
+    -webkit-transition: width 1s;
+  }
+
+
+  footer {
+   margin-top: 20px;
+  }
+
+  #inputProjectName , #inputprojectDesc , #inputprojectPrice , #inputprojectPic{
+
+
+
+
+  }
+
+  /* استایل فرم */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* استایل ورودی‌ها */
+input[type="text"], input[type="number"],input[type="email"],input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+}
+
+/* استایل دکمه ارسال */
+input[type="submit"] {
+    background-color: #F63854;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #F63854;
+}
+
+#profileimage{
+  display: flex;
+  justify-content: center;
+
+
+}

@@ -29,4 +29,4 @@ These are some of the features of this website.
 |-----------------------------|-----------------------------|-----------------------------|
 | ![Image 1](https://i.postimg.cc/0jqJd5PS/1.png) | ![Image 2](https://i.postimg.cc/FKMfNFf6/2.png) | ![Image 3](https://i.postimg.cc/6Q27k4QR/3-6.png) |
 | ![Image 4](https://i.postimg.cc/MZyBZBmm/3-5.png) | ![Image 5](https://i.postimg.cc/SxKYGvFg/4.png) | ![Image 6](https://i.postimg.cc/PrTwCq6s/5.png) |
-| ![Image 7](https://i.postimg.cc/PqR7q9h9/6.png)    |                               |                               |
+| ![Image 7](https://i.postimg.cc/PqR7q9h9/6.png)    |  ![Image 8](https://i.postimg.cc/ryr10m5Q/9.png) | ![Image 9](https://i.postimg.cc/dVSkNjJw/7.png) |

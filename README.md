@@ -2,7 +2,9 @@ I have implemented the entire backend of this website 100% by myself. I have con
 
 # Introduction:
 The website is a freelance platform where users can have three roles: employer, freelancer, and administrator.
+
 Users can view a list of all posted projects on the website and, if logged in, they can request to work on projects as freelancers or delete their previous requests.
+
 Users have the ability to view comments and leave their own comments.
 Users can view a list of projects based on categories.
 Users can search for specific projects and see relevant results.
